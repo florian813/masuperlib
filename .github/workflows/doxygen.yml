@@ -11,4 +11,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - uses: mattnotmitt/doxygen-action@v1.9.5
-    - uses : florian813/actions-gh-pages
+    - uses: actions-gh-pages
