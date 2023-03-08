@@ -1,0 +1,12 @@
+name: Build and deploy Doxygen documentation
+
+on:
+  push:
+    branches: main
+  
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+
+    steps:
+    - uses: actions/checkout@v2
